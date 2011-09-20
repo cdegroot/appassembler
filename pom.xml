@@ -101,6 +101,7 @@
   </modules>
   <scm>
       <connection>scm:git:ssh://git@github.com/cdegroot/appassembler.git</connection>
+      <developerConnection>scm:git:ssh://git@github.com/cdegroot/appassembler.git</developerConnection>
   </scm>
   <reporting>
     <plugins>
