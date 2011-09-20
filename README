@@ -1,0 +1,3 @@
+This is a fork of the Maven Application Assembler (http://mojo.codehaus.org/appassembler/index.html) that adds support for .war files. 
+
+A typical scratch-your-itch project: we needed it, so we hacked it in :)
