@@ -219,9 +219,9 @@ public class AssembleMojo
     
     /**
      * Do special stuff for .war files
-     * @parameter default-value="false"
+     * @parameter expression="${project.packaging}"
      */
-    private boolean isWar;
+    private String packaging;
     
 
     // -----------------------------------------------------------------------
@@ -391,7 +391,8 @@ public class AssembleMojo
             directory.setRelativePath( configurationDirectory );
             directories.add( directory );
         }
-        if ( isWar )
+        
+        if ( packaging.equals("war") )
         {
             Directory directory = new Directory();
             directory.setRelativePath("WEB-INF/classes");
