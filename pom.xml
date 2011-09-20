@@ -100,9 +100,7 @@
     <module>appassembler-booter</module>
   </modules>
   <scm>
-    <connection>scm:svn:http://svn.codehaus.org/mojo/trunk/mojo/appassembler</connection>
-    <developerConnection>scm:svn:https://svn.codehaus.org/mojo/trunk/mojo/appassembler</developerConnection>
-    <url>http://fisheye.codehaus.org/browse/mojo/trunk/mojo/appassembler</url>
+      <connection>scm:git:https://github.com/cdegroot/appassembler.git</connection>
   </scm>
   <reporting>
     <plugins>
